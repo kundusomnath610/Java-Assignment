@@ -45,3 +45,11 @@ public class AnagramCheck {
         System.out.println(areAnagrams(str1, str2));
     }
 }
+
+/*
+ * Time Complexity:- O(NlogN) Because the Arrays.sort() method.
+ * Space Complexity:- O(M) + O(N) => O(N) Because char type array for str1 and str2.
+ * 
+ * 
+ * But it is can be done with O(N) Time Using HashMap.
+ */
